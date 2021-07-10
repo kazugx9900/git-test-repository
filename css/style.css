@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* TOP ここから */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  opacity: 0.85;
+  padding: 20px 70px;
+  position: fixed;
+  width: 100%;
+}
+
+h2 {
+  text-decoration: underline#C9C675 5px;
+}
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  background: url(../img/praice1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.top_wrap h1 {
+  font-size: 30px;
+  color: #fff;
+  background-color: #007;
+  padding: 20px 40px;
+  float: right;
+  margin: 24px;
+  margin-top: 150px;
+}
+/* TOP ここまで */
+
+/* サービス ここから */
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #1576a0;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  color: #1576a0;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service_right p {
+  font-size: 15px;
+  color: #555;
+}
+/* サービス ここまで */
+
+/* ニュース ここから */
+#news {
+  margin: 100px auto;
+  background: rgb(241, 241, 241);
+  padding: 40px 0px;
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news_wrap p {
+  line-height: 2.5;
+}
+/* ニュース ここまで */
+
+/* price ここから */
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #1576a0 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.price_wrap table tr {
+  border: solid #1576a0 2px;
+  padding: 10px;
+}
+
+.price_wrap table td {
+  border: solid #1576a0 2px;
+  padding: 10px;
+}
+/* price ここまで */
+
+/* contact ここから */
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+}
+/* contact ここまで */
